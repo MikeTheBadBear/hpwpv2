@@ -44,7 +44,7 @@ import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
 public class UpdaterRunnable extends BukkitRunnable {
-    private static final long PLUGIN_ID = 88018;
+    private static final long PLUGIN_ID = 0;
     private static final List<AbstractMap.SimpleEntry<Pattern, Function<Long, Long>>> PATTERN_TO_TICKS = Lists
         .newArrayList(
             new AbstractMap.SimpleEntry<>(
